@@ -662,13 +662,8 @@
 
     /* ── SCROLL FADE-IN ── */
     .fade-up {
-      opacity: 0;
-      transform: translateY(24px);
-      transition: opacity 0.6s ease, transform 0.6s ease;
-    }
-    .fade-up.visible {
       opacity: 1;
-      transform: translateY(0);
+      transform: none;
     }
   </style>
 </head>
@@ -703,7 +698,7 @@
     <div class="hero-right">
       <div class="hero-photo">
         <!-- Replace the div below with: <img src="your-photo.jpg" alt="Alyson La" /> -->
-         <img src="headshot.png" alt="Alyson La" /
+        <img src="headshot.png" alt="Alyson La" />
       </div>
       <div class="identity-pills">
         <div class="pill">
